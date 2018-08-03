@@ -32,17 +32,18 @@ Memcahced
 Because memcached is designed as a pure caching solution with no persistence, ElastiCache manges memcached nodes as a pool that can grow and shrink, similar to an Amazon EC2 Auto Scaling Group. Individual nodes are expandable, and ElasticCahce provides additional capabilities here, such as automatic node replacement and Auto Discovery. 
 
 Mamcached - Use Cases
-- if the object caching is your primary goal, for example to offload your database, 
-- if you interested simple caching model as possible, 
+- if the **object caching is your primary goal**, for example to offload your database, 
+- if you interested **simple caching model as possible**, 
 - running large cache nodes, and require multi-threaded performance with utilization of multiple cores
-- if you want to scale your cache horizontally as you grow.
+- if you want to **scale your cache horizontally** as you grow.
 
 
 Redis - Use Cases
-- more advanced data types, such as lists, hashes, sets
-- sorting and ranking datasets in memory, such as with leader-boards
-- if persistence of key store is important
-- if you want to use multiple AWS Availability ZOnes with fail-over. 
+- more **advanced data types, such as lists, hashes, sets**
+- doing **sorting and ranking datasets in memory**, such as with leader-boards
+- if **persistence** of key store is important
+- if you want to use multiple AWS Availability zones with fail-over **Multi-AZ**
+- Pub/sub capabilities are needed. 
  
 **Exam tip** - if in scenario is leader-board always chose Redis
 
@@ -50,10 +51,9 @@ Redis - Use Cases
 
 You will be given a scenario where a particular database is under a lot of stress/load. You may be asked which service you should use to alleviate this. 
 
-Elasticache is a good choice if your database is particularly read-heavy and not prone to frequent changing. 
+Elasticache is a good choice if your database is particularly read-heavy and not prone to frequent changing. (DB)
 
-Redshift is a good answer if the reason your database is feeling stress is because management keep running OLAP transaction on it etc.
-
+Redshift is a good answer if the reason your database is feeling stress is because management keep running OLAP transaction on it etc. (Warehousing) 
 
 ------------
 *Notes based mainly on Cloud Guru Course - [AWS Certified Developer](https://acloud.guru/learn/aws-certified-developer-associate-june-2018) and [AWS Whitepapers](https://aws.amazon.com/whitepapers/)*
