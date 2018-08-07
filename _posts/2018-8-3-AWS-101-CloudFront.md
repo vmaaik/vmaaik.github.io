@@ -1,13 +1,12 @@
 ---
 layout: post
-title: AWS 101 & LAB - CloudFront - Draft
+title:  CloudFront | Amazon Web Services Notes 
 ---
-
-### Notes
-#### What is a CDN?
 
 A content delivery network (CDN) is a system of distributed servers (network) that deliver webpages and other web content to a user based on the geographic locations of the user, the origin of the webpage, and a content deliver servers.
 It is WebService that speeds up the distribution of your static and dynamic web content (image, js, html). 
+
+### Notes
 
 If the webserver is located in US and users use them in Australia, they must be routed to many different networks and it can cause latency and worse performance that for users located in Mexico.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DynamoDB | Amazon Web Services 
+title: DynamoDB | Amazon Web Services Notes 
 ---
 
 Amazon DynamoDB is a fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale. It is a fully managed database and supports both document and key-value data models. Its flexible data model and reliable performance make it a great fit for mobile, web, gaming, ad-tech, IoT, and many others applications. 

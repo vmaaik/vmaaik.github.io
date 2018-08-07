@@ -1,18 +1,15 @@
 ---
 layout: post
-title: AWS 101 API Gateway - Draft
+title: API Gateway | Amazon Web Services Notes
 ---
 
 An API stands for an Application Programming Interface. 
+Amazon API gateway is a fully managed service that makes it easy for developers to publish, maintain, monitor and secure APIs at any scale. With a few clicks in the AWS Management Console, you can create an API that acts as a front door for applications to access data, business logic, or functionality from your back-end services, such as applications running on EC", code running on AWS Lambda, or any web app.  
 
 ### Types of APIs?
 
 - REST APIs (REpresentaional State Transfer), uses JSON
 - SOAP APIs (Simple Object Access Protocol), uses XML
-
-### What is API Gateway -
-
-Amazon API gateway is a fully managed service that makes it easy for developers to publish, maintain, monitor and secure APIs at any scale. With a few clicks in the AWS Management Console, you can create an API that acts as a front door for applications to access data, business logic, or functionality from your back-end services, such as applications running on EC", code running on AWS Lambda, or any web app. 
 
 ### What can API Gateway do?
 
