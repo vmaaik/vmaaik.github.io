@@ -3,7 +3,5 @@ layout: post
 title: Endomondo summary 
 ---
 
-Last update : 
-| Team A  |  Team B |  
-|---|---|
-| 2030 km  | 20330 km  | 
+Last update :2020-05-25 14:56:18 
+Total: 8203
