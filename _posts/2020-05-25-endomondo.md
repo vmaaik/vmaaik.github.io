@@ -3,5 +3,5 @@ layout: post
 title: Endomondo summary 
 ---
 
-Last update :2020-05-25 18:56:26 
+Last update :2020-05-25 19:06:20 
 Total: 8642
